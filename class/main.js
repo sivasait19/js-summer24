@@ -43,3 +43,5 @@ const y = 10//
 x = "siva";
 console.log(typeof x);
 
+//re declaring ( using keyword 'var' 'let' 'const' again) vs re assignment (only use '=')
+
