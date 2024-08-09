@@ -55,3 +55,27 @@ function sumList(array) {
 
 sumList(nums);
 sumList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+
+function printName(name) {
+    const firstLetter = name.charAt(0);
+
+    if (firstLetter === "A") {
+        console.log("name starts with letter A");
+    } else if (firstLetter === "B") {
+        console.log("name starts with letter B");
+    } else {
+        console.log("name does not start with A or B");
+    }
+}
+
+printName("Cat");
+
+function print(val) {
+    console.log(val);
+}
+const myLetterA ="A";
+const myLetterB = "B";
+
+console.log(myLetterA);
+print(myLetterB);
+print(add(5));
