@@ -26,6 +26,11 @@ function sumArray(arr) {
     return sum; 
 }
 
+
+//give [ "h" , "e", "l" , "l" , "o"] , cannot create a new Array
+
+
+
 console.log(sumArray([0, 1, 2, 3, 4, 5]));
 
 /*3. Reverse String: Write a function reverseString(str) that takes a string str as input
@@ -48,5 +53,23 @@ console.log(reverseString("hello world"));
 and returns the number of vowels (a, e, i, o, u) in the string.
 a. Ex: input: “hello world”; output: 3 because “e”, “o”, “o” are vowels in the
 string*/
+
+function countVowels(str) {
+    let count = 0; 
+    const vowels = "aeiouAEIOU";
+
+    for (let i = 0; i < str.length; i++) { 
+        if (vowels.includes(str[i])) { 
+            count++; 
+        }
+    }
+
+    return count; 
+}
+
+
+console.log(countVowels("hello world")); 
+
+
 
 
