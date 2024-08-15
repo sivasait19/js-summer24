@@ -73,36 +73,3 @@ console.log(countVowels("hello world"));
 
 
 
-module student 
-cost student1: {
-    firstName: "Anne";
-    email: "anne@gmail.com";
-    phone: "111-111-1111";
-    age: 15;
-    isActive:true,
-    address: {
-        mailimgAdress: "123 Main St",
-        shippingAddress: "321 Wall St",
-    };
-    enrollment: string["cs101", " math1a"];
-    gradyear: null;
-    student1.gpa = 4.0;
-    student1.gpa = 3.5;
-    console.log(student1);
-}
-
-
-
-const myFunc = function() {}
-function myFunc1() {}
-
-//variable can store a function as well
-// const myFunc = function() {}
-//function myFunc() {}
-
-student1.getEmail = function(){
-    return this.Email ;
-};
-
-//write method for returning the mailing address
-// try this with aroow method
