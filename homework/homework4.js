@@ -147,5 +147,14 @@ function reverseArray(arr) {
 
 console.log(reverseArray([1, 2, 3, 4, 5])); 
 
+//space
+//time
 
-
+let left = 0;
+let right = str.length -1 ;
+while (left < right) {
+    if(str[left]  ! ==str[right])return false;
+    left++;
+    right--;
+}
+return true;

@@ -18,6 +18,32 @@ const student1 = {
 	enrollment: ["cs101", "math1a", "chem2a"], // <---- chem2a
 	gradYear: null,
 };
+ //methods
+getName: function() {
+    return this.getName;
+};
+
+//ES6 new notation does not need a ":" or "function" keyword
+//phoneType: "home" ,"cell"
+getPhone(phoneType){
+    return this.phone[phoneType];
+};
+// write 2 methods
+//add course method , param: newCourse
+//remove an existing course, param: courseToRemove
+ // Method to add a new course
+ addCourse: function(newCourse) {
+    this.enrollment.push(newCourse);
+};
+
+// Method to remove a course
+removeCourse: function(courseToRemove) {
+    const index = this.enrollment.indexOf(courseToRemove);
+    if (index > -1) {
+        this.enrollment.splice(index, 1);
+    }
+}
+;
 
 // access/read data in an object => we use the "." (students1.email) or <object>["key"] (ex: student1["email"])
 // console.log(student1.email);
