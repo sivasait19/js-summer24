@@ -45,6 +45,9 @@ removeCourse: function(courseToRemove) {
 }
 ;
 
+student1.addCourse("lang04");
+student1.remove
+
 // access/read data in an object => we use the "." (students1.email) or <object>["key"] (ex: student1["email"])
 // console.log(student1.email);
 // console.log(student1["email"]);

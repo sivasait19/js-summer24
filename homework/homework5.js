@@ -55,3 +55,24 @@ const user1 = {
   };
   
   
+
+  //given an array of numbers /integers and a target
+  //find 2 numbers that add up to the target number and return the index of those 2 numbers 
+// ex nums = [2,7,11,15], target = 9
+//output : [0,1] => 2+7 = 9
+  function twosum(nums, target)
+
+  function nSq(n){
+    let count =0;
+    for(let i=0;i<n;i++){
+
+    }//for (let j=0;j<n;j++)
+  }
+
+
+  function countletter(sentence, targetletter){
+    const map = new Map()
+
+    const leters = sentence.split("")
+    letters.forEach(letter)=>
+  }
